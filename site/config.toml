@@ -1,0 +1,109 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Puckerbrush Bar & Grill"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+  name = "Puckerbrush Bar & Grill"
+	description = "A restaurant and tiki bar in Greenville, Maine."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Puckerbrush Bar & Grill"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Menu"
+			portfolio = "Gallery"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "FIRED UP"
+    subtitle   = "[We're getting the grill hot!<br /> Keep an eye on our Facebook page for updates.](//facebook.com/pg/Puckerbrush-Bar-Grill-1501898703429971)"
+		buttonText = "About Us"
+
+
+	# About section
+	[params.about]
+  headline    = "Fine food and fun!"
+  description = "[Located in downtown Greenville,](#location) the Puckerbrush offers fantastic food, a fun tiki bar, and spectacular views of Moosehead Lake.<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.</p>"
+  buttonText  = "View the menu"
+
+
+	# Service section
+	[params.services]
+		headline = "Our menu is as fresh as the ingredients we use."
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Appetizers"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Sandwiches"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Entrees"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Desserts"
+            description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+  [params.portfolio]
+      headline = "Our menu is fresh and hot off the grill"
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+    headline = "Visit our Facebook page for more information"
+
+		[params.aside.button]
+    text = "Go now"
+    link = "//facebook.com/pg/Puckerbrush-Bar-Grill-1501898703429971"
+
+	# Contact section
+	[params.contact]
+  headline = "Let's Get In Touch!"
+  description = "Still have questions? Here's how to reach us!"
+  phone = "123-456-6789"
+  email = "robyn@puckerbrush.com"
+
+	# Google Maps section
+	[params.location]
+  latitude  = "45.4592694"
+  longitude = "-69.5947636"
+  maps_api_key = ""
