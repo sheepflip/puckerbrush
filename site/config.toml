@@ -1,109 +1,63 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Puckerbrush Bar & Grill"
-theme = "hugo-creative-theme"
 googleAnalytics = ""
-
+languageCode = "en-us"
+theme = "hugo-creative-theme"
+title = "Puckerbrush Bar & Grill"
 [params]
-
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
-
-	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
-
-	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
-
-	# To provide some metadata for search engines feel free to add some
-	# information about you and your website.
-  name = "Puckerbrush Bar & Grill"
-	description = "A restaurant and tiki bar in Greenville, Maine."
-
-	# The path must be relative to the static folder
-	favicon = "favicon.ico"
-
-
-	# Navigation
-	[params.navigation]
-		brand = "Puckerbrush Bar & Grill"
-
-		[params.navigation.links]
-			about     = "About"
-			services  = "Menu"
-			portfolio = "Gallery"
-			contact   = "Contact"
-
-
-	# Hero section
-	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "FIRED UP"
-    subtitle   = "[We're getting the grill hot!<br /> Keep an eye on our Facebook page for updates.](//facebook.com/pg/Puckerbrush-Bar-Grill-1501898703429971)"
-		buttonText = "About Us"
-
-
-	# About section
-	[params.about]
-  headline    = "Fine food and fun!"
-  description = "David and Robyn Clark purchased the property in the fall of 2014. They were frequent visitors to the former restaurant (The Black Frog) and own a home in the area.  They have always had a dream of owning a restaurant as they love to feed, entertain and enjoy time with family and friends.<br /><br />David worked 40 years at Bath Iron Works.  After retiring from BIW in 2014, he has continued his shipbuilding career as a Consultant while pursuing his dream of owning a restaurant.  Robyn has worked 26 years in the banking industry in Finance and is a graduate of Robert Morris University with a Bachelor’s Degree in Finance.  She shares David’s dream of owning a restaurant and is now committing 100% of her time in helping this dream come alive.<br /><br />Both David and Robyn have completed the State Certified Course in Restaurant Food Safety (ServSafe), have a strong work ethic and a passion for entertainment and ensuring guests eat well and enjoy."
-  buttonText  = "View the menu"
-
-
-	# Service section
-	[params.services]
-		headline = "Our menu is as fresh as the ingredients we use."
-
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Appetizers"
-            description = "Our templates are updated regularly so they don't break."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Sandwiches"
-			description = "You can use this theme as is, or you can make changes!"
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Entrees"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Desserts"
-            description = "You have to make your websites with love these days!"
-
-
-    # Portfolio modals
-  [params.portfolio]
-      headline = "Our menu is fresh and hot off the grill"
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
-
-    # Aside section
-	[params.aside]
-    headline = "Visit our Facebook page for more information"
-
-		[params.aside.button]
-    text = "Go now"
-    link = "//facebook.com/pg/Puckerbrush-Bar-Grill-1501898703429971"
-
-	# Contact section
-	[params.contact]
-  headline = "Let's Get In Touch!"
-  description = "Still have questions? Here's how to reach us!"
-  phone = "123-456-6789"
-  email = "robyn@puckerbrush.com"
-
-	# Google Maps section
-	[params.location]
-  latitude  = "45.4592694"
-  longitude = "-69.5947636"
-  maps_api_key = ""
+description = "A restaurant and tiki bar in Greenville, Maine."
+favicon = "favicon.ico"
+name = "Puckerbrush Bar & Grill"
+[params.about]
+buttontext = "View the menu"
+description = "David and Robyn Clark purchased the property in the fall of 2014. They were frequent visitors to the former restaurant (The Black Frog) and own a home in the area.  They have always had a dream of owning a restaurant as they love to feed, entertain and enjoy time with family and friends.<br /><br />David worked 40 years at Bath Iron Works.  After retiring from BIW in 2014, he has continued his shipbuilding career as a Consultant while pursuing his dream of owning a restaurant.  Robyn has worked 26 years in the banking industry in Finance and is a graduate of Robert Morris University with a Bachelor’s Degree in Finance.  She shares David’s dream of owning a restaurant and is now committing 100% of her time in helping this dream come alive.<br /><br />Both David and Robyn have completed the State Certified Course in Restaurant Food Safety (ServSafe), have a strong work ethic and a passion for entertainment and ensuring guests eat well and enjoy."
+headline = "Fine food and fun!"
+[params.aside]
+headline = "Visit our Facebook page for more information"
+[params.aside.button]
+link = "//facebook.com/pg/Puckerbrush-Bar-Grill-1501898703429971"
+text = "Go now"
+[params.contact]
+description = "Still have questions? Here's how to reach us!"
+email = "robyn@puckerbrush.com"
+headline = "Let's Get In Touch!"
+phone = "123-456-6789"
+[params.hero]
+buttontext = "About Us"
+slogan = "FIRED UP"
+subtitle = "[We're getting the grill hot!<br /> Keep an eye on our Facebook page for updates.](//facebook.com/pg/Puckerbrush-Bar-Grill-1501898703429971)"
+[params.location]
+latitude = "45.4592694"
+longitude = "-69.5947636"
+maps_api_key = "AIzaSyAnnVX70erU2KOMTFIgZCUWike1HrDtuWQ"
+[params.navigation]
+brand = "Puckerbrush Bar & Grill"
+[params.navigation.links]
+about = "About"
+contact = "Contact"
+portfolio = "Gallery"
+services = "Menu"
+[params.portfolio]
+headline = "Our menu is fresh and hot off the grill"
+[params.portfolio.modal]
+buttontext = "Close"
+category = "Category"
+client = "Client"
+date = "Date"
+[params.services]
+headline = "Our menu is as fresh as the ingredients we use."
+[[params.services.list]]
+description = "Our templates are updated regularly so they don't break."
+icon = "fa-diamond"
+title = "Appetizers"
+[[params.services.list]]
+description = "You can use this theme as is, or you can make changes!"
+icon = "fa-paper-plane"
+title = "Sandwiches"
+[[params.services.list]]
+description = "We update dependencies to keep things fresh."
+icon = "fa-newspaper-o"
+title = "Entrees"
+[[params.services.list]]
+description = "You have to make your websites with love these days!"
+icon = "fa-heart"
+title = "Desserts"
